@@ -48,9 +48,9 @@ pkg update && pkg upgrade
 
 pkg install git python
 
-git clone https://github.com/DOMINATER-69/Telegram-subscription-manager-.git
+git clone https://github.com/DOMINATER-69/Telegram-bot-subscription-.git
 
-cd Telegram-subscription-manager
+cd Telegram-bot-subscription-
 ```
 
 ## Install Dependencies
@@ -58,7 +58,12 @@ cd Telegram-subscription-manager
 ```bash
 pip install -r requirements.txt
 ```
-
+---
+###run the command 
+```bash
+chmod +x launcher.sh
+./launcher.sh
+```
 ## Configure Bot
 
 Open the source code and replace the bot token:
@@ -68,15 +73,6 @@ BOT_TOKEN = "YOUR_BOT_TOKEN"
 ```
 
 Get your token from BotFather.
-
----
-
-# 🚀 Running The Bot
-
-```bash
-python bot.py
-```
-
 ---
 
 # 📌 Available Commands
